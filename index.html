@@ -1,47 +1,99 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Millene Gomes - Portfólio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✔️ ";
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-    <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da millene" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou millene_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Estudante do ensino medio. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
-        </div>
-    </header>
-    <main class="container">
-        <h2>Meus projetos</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
 
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <header>
+    <h1>Millene Gomes</h1>
+    <p>Estudante do ensino médio e futura desenvolvedora web!</p>
+  </header>
+
+  <section>
+    <h2>Sobre mim</h2>
+    <p>Sou uma estudante apaixonada por tecnologia e desenvolvimento web. Estou aprendendo HTML, CSS e JavaScript para criar sites incríveis.</p>
+  </section>
+
+  <section>
+    <h2>Tecnologias</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projeto em destaque</h2>
+    <p><strong>Altura</strong> - Um projeto simples que usa HTML, CSS e JavaScript. <br>
+      <a href="https://github.com/seuusuario/altura" target="_blank">Ver no GitHub</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/seu-usuario" target="_blank">linkedin.com/in/seu-usuario</a></p>
+  </section>
+
+  <footer>
+    <p>Desenvolvido com carinho por Millene Gomes.</p>
+  </footer>
+
 </body>
-
 </html>
