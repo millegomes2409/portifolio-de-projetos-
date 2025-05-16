@@ -28,7 +28,7 @@
 ### ✉️ Contato
 
 - **Email:** 00001225586495sp@al.educacao.sp.gov.br 
-- **LinkedIn:** [linkedin.com/in/seu-usuario](https://linkedin.com)
+- **Site:**  https://Millenegomes.github.io/portfolio
 
 ---
 
